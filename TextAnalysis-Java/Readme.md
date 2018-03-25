@@ -1,0 +1,3 @@
+I run my program on IntelliJ IDEA. Before running this program,  please setting command line argument. There is just one argument need to set, which is the absolute path of test files folder. For example, my test files folder is /Users/Jessica/Desktop/citesser. Open IntelliJ IDEA, go to Run -> Edit Configurations, put this path to Program arguments. The program can be run. 
+There a two running mode. One is debug mode which does not integrate the porter stemmer and stopword eliminator. If run this mode, please put the DEBUG which is in AnalysisFile.java to true. The normal mode adjusts the word by Porter stemmer and remove all stopword, set the DEBUG to false will run the normal mode. The default value of DEBUG is false
+
